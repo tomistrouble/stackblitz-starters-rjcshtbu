@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #0B1325;
+  --color-secondary: #FFF8E8;
+  --color-accent: #FFCA0A;
+  --color-accent-dark: #EAA700;
+  --color-button-text: #483700;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('https://fonts.cdnfonts.com/css/sf-pro-display');
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--color-primary);
+  color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'SF Pro Display', 'Inter', sans-serif;
+}
+
+.h1 {
+  font-size: 76.29px;
+  line-height: 76px;
+  letter-spacing: -4px;
+}
+
+.h3 {
+  font-size: 35px;
+  line-height: 42px;
+}
+
+.h4 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 26px;
+}
