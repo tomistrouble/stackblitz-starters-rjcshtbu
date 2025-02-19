@@ -15,7 +15,7 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
         >
           <h1 className="h1 font-bold mb-6">
-            Supply humans to build their digital ideas
+            Turn ideas into digital reality
           </h1>
           <h4 className="h4 text-white/90 mb-8">
             We'll plan, build and organise your business. You get to live life and keep the benefits.
